@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(255, 255, 255);
+} 
+
+header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pic1{
+    float: left;
+    background-color: transparent;
+}
+
+body{
+    grid-column: auto;
+}
+
+.login{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.Address{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.PassWord{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.button{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer{
+    text-align: center;
+}
+
+input{
+    box-shadow: 1px 1px;
+    width: 400px;
+    padding: 5px 10px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+button{
+    width: 400px;
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
