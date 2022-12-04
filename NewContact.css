@@ -1,0 +1,92 @@
+main{
+    display: grid;
+    grid-template-columns: 15% 80%;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pic1{
+    float: left;
+    background-color: transparent;
+}
+
+.headings{
+    float:left;
+}
+
+.content{
+    float:center;
+    background-color: lightgrey;
+    padding-bottom: 50%;
+}
+
+button{
+    display: block;
+}
+.headings div.container div.button{
+    padding-bottom: 30px;
+}
+
+.title{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content div.info div.title select{
+    box-shadow: 1px 1px;
+    width: 15%;
+    padding: 5px 10px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.content div.info{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    background-color: white;
+    grid-column-start: 10%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.content div.info div.title{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: white;
+    grid-column-start: 10%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+input{
+    box-shadow: 1px 1px;
+    width: 70%;
+    padding: 5px 10px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+
+select{
+    box-shadow: 1px 1px;
+    width: 70%;
+    padding: 5px 10px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.content div.info div.button{
+    padding-top: 25%;
+    padding-left: 90%;
+}

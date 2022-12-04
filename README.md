@@ -6,7 +6,7 @@ Ikobi Lynch: 620139035
 Sheamar White: 
 Trishanna Ford: 
 Sabrina Harvyey:
-Brandon Mcpherson: 
+Brandon Mcpherson: 620130245
 
 
 NOTE:
