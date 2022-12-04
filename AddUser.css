@@ -1,22 +1,21 @@
 main{
     display: grid;
-    grid-template-columns: 15% 80%;
+    height: auto;
+    margin: 0 auto;
+    grid-template-columns: 20% 80%;
 }
 
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: dodgerblue;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px;
+    height: 100px;
 }
 
-.pic1{
-    float: left;
-    background-color: transparent;
-}
-
-.headings{
-    float:left;
+header img{
+    padding-right: 10px;
 }
 
 .content{
@@ -25,11 +24,22 @@ header {
     padding-bottom: 50%;
 }
 
-button{
-    display: block;
+.headings .container button{
+    width: 237px;
+    height: 44px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    font-weight: bolder;
+    margin-bottom: 5px;
 }
-.headings div.container div.button{
-    padding-bottom: 30px;
+
+.button img{
+    height: 20px;
+    width: 20px;
+    float: left;
+    padding-left: 7px;
 }
 
 .content div.info{
@@ -38,6 +48,11 @@ button{
     background-color: white;
     grid-column-start: 10%;
     border-radius: 10px;
+}
+
+.container button:hover{
+    background-color: lightgrey;
+    cursor: pointer;
 }
 
 input{
@@ -59,4 +74,17 @@ select{
 .content div.info div.button{
     padding-top: 25%;
     padding-left: 90%;
+}
+
+#h4{
+    font-size: 20px;
+}
+
+.headings{
+    grid-column: 1;
+    grid-row: 1;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+
 }
