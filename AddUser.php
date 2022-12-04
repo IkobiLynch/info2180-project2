@@ -21,7 +21,7 @@
                         <button type="submit" name="contact" onclick="">New Contact <img src="user.png" alt=""></button>
                     </div>
                     <div class="button">
-                        <button type="submit" name="users" onclick="window.location.href='http://localhost/info2180-test/IDK/viewUser.php';"> Users <img src="multiple-users-silhouette.png" alt=""></button>
+                        <button type="submit" name="users" onclick="document.location='viewUser.php'"> Users <img src="multiple-users-silhouette.png" alt=""></button>
                     </div>
                     <div class="button">
                         <button type="submit" name="logout" onclick=""> Logout <img src="logout.png" alt=""></button>
