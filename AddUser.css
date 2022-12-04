@@ -5,7 +5,7 @@ main{
     grid-template-columns: 20% 80%;
 }
 
-header {
+header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,14 +14,23 @@ header {
     height: 100px;
 }
 
+.content .container h2{
+    padding-bottom: 30px;
+}
+
+
 header img{
     padding-right: 10px;
 }
 
-.content{
-    float:center;
-    background-color: lightgrey;
-    padding-bottom: 50%;
+.content .container{
+    grid-column: 2;
+    background-color: #e8e1e3;
+    padding-bottom: 30%;
+}
+
+.content .container form{
+    padding-left: 30px;
 }
 
 .headings .container button{
@@ -32,52 +41,50 @@ header img{
     border-radius: 25px;
     border: none;
     font-weight: bolder;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
-.button img{
+.headings .container button img{
     height: 20px;
-    width: 20px;
+    width: 30px;
     float: left;
     padding-left: 7px;
 }
 
-.content div.info{
-    display: grid;
-    grid-template-columns: 40% 40%;
-    background-color: white;
-    grid-column-start: 10%;
-    border-radius: 10px;
-}
 
-.container button:hover{
+.headings button:hover{
     background-color: lightgrey;
     cursor: pointer;
 }
 
 input{
-    box-shadow: 1px 1px;
+    box-shadow: 2px 2px darkgray;
     width: 70%;
     padding: 5px 10px;
     border-width: 1px;
     border-radius: 5px;
+    height: 40px;
 }
 
 select{
-    box-shadow: 1px 1px;
+    box-shadow: 2px 2px darkgray;
     width: 70%;
     padding: 5px 10px;
     border-width: 1px;
     border-radius: 5px;
+    height: 40px;
 }
 
-.content div.info div.button{
-    padding-top: 25%;
-    padding-left: 90%;
+form h5{
+    font-size: 16px;
+    font-weight: bolder;
 }
+
+
 
 #h4{
     font-size: 20px;
+    font-weight: bolder;
 }
 
 .headings{
@@ -87,4 +94,25 @@ select{
     margin-top: 30px;
     margin-left: 20px;
 
+}
+
+form button{
+    width: 90px;
+    height: 44px;
+    background-color: #78223e;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color: #501629;
+}
+
+hr{
+    width: 230px;
+    margin-left: 0px;
 }
