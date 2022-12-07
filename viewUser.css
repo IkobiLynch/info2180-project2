@@ -58,7 +58,6 @@ table tr{
 
 .user-container{
     grid-column: 2;
-    height: 600px;
     background-color: #e8e1e3;
    
 }
@@ -72,10 +71,6 @@ table tr{
 
 .userheader h1{
     margin-left: 40px;
-}
-
-.user-container hr{
-    width: 1100px;
 }
 
 
@@ -138,7 +133,7 @@ header img{
 }
 
 .container hr{
-    width: 250px;
+    width: 230px;
     margin-left: 0px;
 }
 

@@ -14,7 +14,7 @@
             <div class="user-container"> 
                 <div class="userheader">
                     <h1> Users </h1>
-                    <button onclick="document.location='Adduser.html'" id="adduserbtn"> + Add User </button>
+                    <button onclick="document.location='Adduser.php'" id="adduserbtn"> + Add User </button>
                 </div>
                 <div id="result"> 
                     <?php
@@ -39,7 +39,7 @@
                     
                         <?php foreach($users as $user): ?>
                             <tr>
-                                <td> <?php echo $user['firstname'].$user['lastname']; ?> </td>
+                                <td> <?php echo $user['firstname']." ".$user['lastname']; ?> </td>
                                 <td> <?php echo $user['email']; ?> </td>
                                 <td> <?php echo $user['role']; ?> </td>
                                 <td> <?php echo $user['created_at']; ?> </td>
@@ -54,13 +54,13 @@
             <section class="headings">
                 <div class="container">
                     <div class="button">
-                        <button type="submit" name="home"> Home 
+                        <button type="submit" name="home" onclick="document.location='dashboard.html'"> Home 
                         <img src="home.png" alt="">
                         </button>
                         
                     </div>
                     <div class="button">
-                        <button type="submit" name="contact"> New Contact 
+                        <button type="submit" name="contact" onclick="document.location='NewContact.php'"> New Contact 
                         <img src="user.png" alt="">
                         </button>
                         
@@ -73,7 +73,7 @@
                     </div>
                     <hr>
                     <div class="button">
-                        <button type="submit" name="logout"> Logout 
+                        <button type="submit" name="logout" onclick="document.location='User Login.html'"> Logout 
                         <img src="logout.png" alt="">
                         </button>
                         
