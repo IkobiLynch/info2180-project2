@@ -3,7 +3,7 @@
 This is the final project for info2180. 
 Group Members are: 
 Ikobi Lynch: 620139035
-Sheamar White: 
+Sheamar White: 620146864
 Trishanna Ford: 
 Sabrina Harvey: 620138823
 Brandon Mcpherson: 
